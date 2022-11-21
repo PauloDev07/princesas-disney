@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js"></script>
+    <title>Princesas</title>
+</head>
+<body>
+    <main>
+        <div class="form">
+            <h1>Qual a princesa?</h1>
+            <div id="inputs">
+                <p>Qual a cor do cabelo da princesa?</p>
+                <input type="radio" name="rdhair" id="rdloiro">
+                <label for="rdloiro">Loiro</label>
+                
+                <input type="radio" name="rdhair" id="rdruivo">
+                <label for="rdruivo">Ruivo</label>
+                
+                <input type="radio" name="rdhair" id="rdpreto">
+                <label for="rdpreto">Preto</label>
+                
+                <input type="radio" name="rdhair" id="rdcastanho">
+                <label for="rdcastanho">Castanho</label>
+                
+                  <p>O cabelo tem cachos/trança?</p>
+                    <input type="radio" name="rdcacho" id="rdsim" >
+                    <label for="rdsim">Sim</label>
+                    
+                    <input type="radio" name="rdcacho" id="rdnao">
+                    <label for="rdnao">Não</label>
+
+                    
+                <p>Qual a cor de pele?</p>
+                    <input type="radio" name="rdpele" id="rdbranca" >
+                    <label for="rdbranca">Branca</label>
+                    
+                    <input type="radio" name="rdpele" id="rdmorena">
+                    <label for="rdmorena">Morena</label>
+                </div>
+                <section>
+                    <input type="button" value="advinhar" onclick="advinhar()" id="botao">
+                </section>
+        </div>
+        <div id="texto">
+            <img id="icon" src="./fundo/icon.jpg" style="border-radius: 50%;">
+            </div>
+        </div>
+    </main>    
+    <footer>
+        &copy;StarWalking
+    </footer>
+</body>
+</html>

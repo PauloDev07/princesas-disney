@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'disney';
+    src: url(./font/waltographUI.ttf), url(./font/waltograph42.otf);
+}
+
+
+body {
+    background-image: url(https://disneyplusbrasil.com.br/wp-content/uploads/2022/02/Princesas-Disney.jpg);
+    text-align: -webkit-center;
+    font-family: 'disney';
+    background-size: cover;
+}
+
+main {
+    background-image: url(./fundo/bgc.jpg);
+    border-radius: 15px;
+    width: 50%;
+    padding: 15px;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: 3px 3px 20px;
+}
+
+div {
+    font-size: 25px;
+}
+
+input, label, button {
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+footer {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    color: white;
+    
+}
+
+p {
+    margin-top: 50px;
+}
+
+#inputs {
+    font-size: 25px;
+}
+
+#botao {
+    margin-top: 15px;
+    background-color: #2fbbb4;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#icon {
+    width: 25%;
+    margin: 25px;
+}
